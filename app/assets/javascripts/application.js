@@ -12,5 +12,16 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.ui.all
 //= require bootstrap
+//= require rails.validations
+//= require rails.validations.simple_form
+//= require jquery.purr
+//= require best_in_place
 //= require_tree .
+
+$(function() {
+
+$("input.date_picker").datepicker({dateFormat:'mm/dd/yy', minDate: new Date(2013,02,01), maxDate: new Date(2013,02,31) });
+
+});

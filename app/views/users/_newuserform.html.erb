@@ -1,0 +1,13 @@
+    <%= simple_form_for @user, :validate => true do |user| %>
+	  <%= render 'shared/error_messages', object: user.object %>
+
+      <%= user.input :name, placeholder: "Full Name" %>
+
+      <%= user.input :email, placeholder: "Email" %>
+
+      <%= user.input :password, placeholder: "Password", :hint => "Minimum length of 6 characters" %>
+
+      <%= user.input :password_confirmation, placeholder: "Confirm Password" %>
+
+      <%= user.submit "Start Your Free Trail", class: "btn btn-large btn-primary" %>
+    <% end %>

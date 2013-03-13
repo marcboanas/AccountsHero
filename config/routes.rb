@@ -1,17 +1,31 @@
 AccountsHero::Application.routes.draw do
   
+  get "password_resets/new"
+
     resources :users do
         member do
             get :following, :followers
         end
     end
   resources :sessions, only: [:new, :create, :destroy]
+  resources :incomes do
+      collection do
+          delete :destroy_multiple
+      end
+  end
+  resources :clients
+  resources :expenses do
+      collection do
+          delete :destroy_multiple
+      end
+  end
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
+  resources :password_resets
 
   root :to => 'static_pages#home'
   match '/help',    to: 'static_pages#help'
-  match '/signup',    to: 'users#new'
+  match '/signup',  to: 'users#new'
   match '/signin',  to: 'sessions#new'
   match '/signout', to: 'sessions#destroy', via: :delete
 
