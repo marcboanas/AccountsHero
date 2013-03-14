@@ -1,3 +1,5 @@
+
+
 <%= simple_form_for @income, :validate => false, :remote => true, :html => { :class => 'form-inline' } do |f| %>
 
  <%= f.input_field :date, :placeholder => "Date", :class => "custom", :as => :date_picker %>
@@ -8,3 +10,4 @@
   <%= f.submit "Add Income", class: "btn btn-large btn-primary custom" %>
   
 <% end %>
+

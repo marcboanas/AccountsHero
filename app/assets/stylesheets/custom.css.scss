@@ -17,12 +17,14 @@ html {
 }
 
 body {
-  padding-top: 60px;
-  background: black url(/images/accounthero_.jpg) no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  
+  margin-top: 100px;
+  background: url(/images/wood.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 section {
@@ -36,7 +38,7 @@ textarea {
 div.navbar-inner {
 
 background-color: rgba(0, 0, 0, 0.1) !important;
-height: 100px;
+height: 60px;
 opacity:0.8;
 
 }
@@ -301,7 +303,7 @@ aside {
   }
 }
 
-.string.date_picker.optional.datepicker.hasDatepicker, .numeric.float.required, .string.optional.custom, select.required.custom, select.optional.custom, .numeric.float.optional.custom {
+.string.date_picker.optional.datepicker.hasDatepicker, .numeric.float.required, .string.optional.custom, .string.required.custom, .string.email.required.custom, .password.required.custom, select.required.custom, select.optional.custom, .numeric.float.optional.custom {
 
 -webkit-appearance: none;
 -webkit-border-image: none;
@@ -719,6 +721,46 @@ border-bottom: 1px dotted black;
 
 #income_client_id.custom {
 background: url(/images/) no-repeat right #fff !important;
+}
+
+div.newform {
+
+background-color: rgba(0, 0, 0, 0.7) !important;
+position: absolute;
+top: 650px;
+padding: 30px !important;
+border-radius: 10px;
+border: 3px solid black;
+
+}
+
+#background {
+  margin-top: -100px;
+  margin-bottom: 0px;
+  padding-top: 60px;
+  background: url(/images/accounthero_.jpg) no-repeat center center scroll;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 830px;
+  width: 1180px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#tour {
+  margin-top: -5px;
+  padding-top: 60px;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 830px;
+  width: 1180px;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 
 

@@ -8,6 +8,11 @@
     <%= render 'layouts/shim' %>    
   </head>
   <body>
+    <% if !signed_in? %>
+    <div id="background"></div>
+    <div id="tour"></div>
+    <% end %>
+    
     <%= render 'layouts/header' %>
     <div class="container custom">
 	  <% flash.each do |key, value| %>
