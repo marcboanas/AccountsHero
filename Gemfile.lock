@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/rweng/jquery-datatables-rails.git
+  revision: 314043cbf1ca8478add536e590eeddaa70a1fd82
+  specs:
+    jquery-datatables-rails (1.11.1)
+      jquery-rails
+
+GIT
   remote: https://github.com/getsentry/raven-ruby.git
   revision: f6a97f1544480645c4dfdb4d1e9e97ede1e737a9
   specs:
@@ -79,6 +86,9 @@ GEM
     ffi (1.1.5)
     font-awesome-rails (0.4.1)
       railties (~> 3.1)
+    foundation-icons-sass-rails (2.0.0)
+      railties (>= 3.1.1)
+      sass-rails (>= 3.1.1)
     hashie (1.2.0)
     hike (1.2.1)
     i18n (0.6.1)
@@ -189,6 +199,8 @@ DEPENDENCIES
   coffee-rails (= 3.2.2)
   faker (= 1.0.1)
   font-awesome-rails
+  foundation-icons-sass-rails
+  jquery-datatables-rails!
   jquery-rails
   jquery-ui-rails
   jquery_datepicker

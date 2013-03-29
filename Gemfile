@@ -15,6 +15,8 @@ gem 'jquery_datepicker'
 gem 'best_in_place'
 gem 'bootstrap-sass', '2.1'
 gem "font-awesome-rails"
+gem 'foundation-icons-sass-rails'
+gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
