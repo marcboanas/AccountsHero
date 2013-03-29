@@ -16,9 +16,7 @@
 //= require rails.validations
 //= require rails.validations.simple_form
 //= require jquery.purr
-//= require dataTables/jquery.dataTables
 //= require best_in_place
-//= require jquery.tablescroll
 //= require_tree .
 
 jQuery(function($){
