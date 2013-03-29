@@ -61,7 +61,6 @@ GEM
     best_in_place (2.1.0)
       jquery-rails
       rails (~> 3.1)
-    bootstrap-sass (2.1.0.0)
     bootstrap-will_paginate (0.0.6)
       will_paginate
     builder (3.0.4)
@@ -197,7 +196,6 @@ PLATFORMS
 DEPENDENCIES
   bcrypt-ruby (= 3.0.1)
   best_in_place
-  bootstrap-sass (= 2.1)
   bootstrap-will_paginate (= 0.0.6)
   capybara (= 1.1.2)
   client_side_validations
