@@ -7,7 +7,16 @@ gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem "sentry-raven", :git => "https://github.com/getsentry/raven-ruby.git"
 gem 'jquery-rails'
-
+gem 'simple_form'
+gem 'client_side_validations'
+gem 'client_side_validations-simple_form'
+gem 'jquery-ui-rails'
+gem 'jquery_datepicker'
+gem 'best_in_place'
+gem 'bootstrap-sass', '2.1'
+gem "font-awesome-rails"
+gem 'foundation-icons-sass-rails'
+gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
